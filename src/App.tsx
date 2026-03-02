@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart, Volume2, VolumeX, RefreshCcw, Music, Star, Sparkles, PenTool, Share2, Download } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Configuration ---
 const MEMORIES = [
@@ -666,6 +667,7 @@ export default function App() {
   };
 
   return (
+    <>
     <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-gradient-to-br from-romantic-100 via-romantic-200 to-purple-200">
       {/* Heartbeat Visual Effects */}
       <HeartbeatRipple trigger={beatTrigger} />
@@ -885,5 +887,7 @@ export default function App() {
         )}
       </AnimatePresence>
     </div>
+    <Analytics />
+  </>
   );
 }
