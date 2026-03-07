@@ -11,6 +11,7 @@ A beautiful, interactive web experience designed to express love and create a sh
   - **Memory Lane**: A visual journey through cherished memories with heartbeat sound effects and haptic feedback.
   - **Scratch Reveal**: A fun, interactive scratch card to reveal a secret message.
 
+
 - **Interactive Heart Drawing**:
   - **Trace the Heart**: A guided canvas where users draw a heart to "seal" the message.
   - **Fluid Drawing**: Smooth, glowing lines with a neon effect for a magical feel.
